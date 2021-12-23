@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/svbusx64_modded.7z
+/svbusx86_modded.7z
