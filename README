@@ -1,0 +1,5 @@
+0.本程序原作Kai Schtrom，代码可在https://sourceforge.net/projects/svbus/ 找到。补丁由yaya贡献核心代码。遵循GPL v3协议发行。
+1.如果你要走sln编译，编译环境是VS2019 + WDK10.0.22000
+2.make_fre和make_chk.cmd以及source等一众文件是给有win7的ddk的准备的，使用之前设置环境变量DDKDIR为win7 ddk的目录（打开批处理文件能看见，自己改）
+3.svbusx64.inf和svbusx86.inf只在VS下编译有用。那两个编译批处理是用svbus.inf和txtsetup.oem的
+4.signcer.pfx的密码是123456
