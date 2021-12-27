@@ -1,12 +1,12 @@
 // Microsoft Visual C++ generated resource script.
 //
 #include "resource.h"
-/////////////////////////////////////////////////////////////////////////////
-// 中文(简体，中国) resources
-
-#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
-LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
-#pragma code_page(936)
+///////////////////////////////////////////////////////////////////////////////
+//// 中文(简体，中国) resources
+//
+//#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+//LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+//#pragma code_page(936)
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -47,32 +47,32 @@ BEGIN
 END
 
 
-#ifdef APSTUDIO_INVOKED
-/////////////////////////////////////////////////////////////////////////////
+//#ifdef APSTUDIO_INVOKED
+///////////////////////////////////////////////////////////////////////////////
+////
+//// TEXTINCLUDE
+////
 //
-// TEXTINCLUDE
+//1 TEXTINCLUDE 
+//BEGIN
+//    "resource.h\0"
+//END
 //
-
-1 TEXTINCLUDE 
-BEGIN
-    "resource.h\0"
-END
-
-2 TEXTINCLUDE 
-BEGIN
-    "\0"
-END
-
-3 TEXTINCLUDE 
-BEGIN
-    "\r\n"
-    "\0"
-END
-
-#endif    // APSTUDIO_INVOKED
-
-#endif    // 中文(简体，中国) resources
-/////////////////////////////////////////////////////////////////////////////
+//2 TEXTINCLUDE 
+//BEGIN
+//    "\0"
+//END
+//
+//3 TEXTINCLUDE 
+//BEGIN
+//    "\r\n"
+//    "\0"
+//END
+//
+//#endif    // APSTUDIO_INVOKED
+//
+//#endif    // 中文(简体，中国) resources
+///////////////////////////////////////////////////////////////////////////////
 
 
 
