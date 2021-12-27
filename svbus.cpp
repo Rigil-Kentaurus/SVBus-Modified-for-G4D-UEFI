@@ -1,7 +1,7 @@
 
 /*
 	SVBus - Virtual SCSI Host Adapter
-	Copyright (C) 2020 Kai Schtrom
+	Copyright (C) 2020 Kai Schtrom , Modified By Sunsea@wuyou
 
 	This file is part of SVBus.
 
@@ -3007,7 +3007,6 @@ EXTERN_C NTSTATUS DriverEntry(IN PDRIVER_OBJECT DriverObject, IN PUNICODE_STRING
 //#ifndef DBG
 	if(bSystemSetupInProgress == TRUE) //干掉了，似乎在手动调试下它会让驱动不被加载
 	{ //再次修订：似乎Win10下他会挂掉，直接不加载驱动
-		//再次修订：Win7必须加上这个，不加这个会爆炸：不能认盘
 //#endif
 		// report non-PnP device to the PnP manager
 		/*lint -save -e418 Warning 418: Passing null pointer to function */

@@ -4,3 +4,4 @@
 3.svbusx64.inf和svbusx86.inf只在VS下编译有用。那两个编译批处理是用svbus.inf和txtsetup.oem的
 4.signcer.pfx的密码是123456
 5.那两个批处理似乎编译时全路径不能有空格。
+6.wdk7编译的能给各个版本用，wdk10编译的似乎只能Win10用。（傻逼M$！）
